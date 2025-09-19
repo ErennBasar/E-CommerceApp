@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BCD2E543-2771-421B-ABB2-D29D5EB05A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Application", "E-CommerceAPI\Core\ECommerceAPI.Application\ECommerceAPI.Application.csproj", "{5E6D4BA0-277F-485C-9786-7775017BE450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Domain", "E-CommerceAPI\Core\ECommerceAPI.Domain\ECommerceAPI.Domain.csproj", "{595E12ED-B267-4812-B594-6D5FA74102A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{53828C0E-6263-44F4-BAB7-F1F760B456EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Infrastructure", "E-commerceAPI\Infrastructure\ECommerceAPI.Infrastructure\ECommerceAPI.Infrastructure.csproj", "{BAF979B4-450C-414F-9F8D-53020CE53C98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.Persistence", "E-CommerceAPI\Infrastructure\ECommerceAPI.Persistence\ECommerceAPI.Persistence.csproj", "{2921DC81-F651-407C-A74E-916C60BC8B92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BB04E3AE-42D4-4410-AA0E-156E7DD6B61F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceAPI.API", "E-CommerceAPI\Presentation\ECommerceAPI.API\ECommerceAPI.API.csproj", "{CAD60AE2-48A1-405D-80D3-007459AE0BD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E6D4BA0-277F-485C-9786-7775017BE450} = {BCD2E543-2771-421B-ABB2-D29D5EB05A25}
+		{595E12ED-B267-4812-B594-6D5FA74102A0} = {BCD2E543-2771-421B-ABB2-D29D5EB05A25}
+		{BAF979B4-450C-414F-9F8D-53020CE53C98} = {53828C0E-6263-44F4-BAB7-F1F760B456EA}
+		{2921DC81-F651-407C-A74E-916C60BC8B92} = {53828C0E-6263-44F4-BAB7-F1F760B456EA}
+		{CAD60AE2-48A1-405D-80D3-007459AE0BD7} = {BB04E3AE-42D4-4410-AA0E-156E7DD6B61F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E6D4BA0-277F-485C-9786-7775017BE450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6D4BA0-277F-485C-9786-7775017BE450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6D4BA0-277F-485C-9786-7775017BE450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6D4BA0-277F-485C-9786-7775017BE450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{595E12ED-B267-4812-B594-6D5FA74102A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595E12ED-B267-4812-B594-6D5FA74102A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595E12ED-B267-4812-B594-6D5FA74102A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595E12ED-B267-4812-B594-6D5FA74102A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF979B4-450C-414F-9F8D-53020CE53C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF979B4-450C-414F-9F8D-53020CE53C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF979B4-450C-414F-9F8D-53020CE53C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF979B4-450C-414F-9F8D-53020CE53C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2921DC81-F651-407C-A74E-916C60BC8B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2921DC81-F651-407C-A74E-916C60BC8B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2921DC81-F651-407C-A74E-916C60BC8B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2921DC81-F651-407C-A74E-916C60BC8B92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD60AE2-48A1-405D-80D3-007459AE0BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD60AE2-48A1-405D-80D3-007459AE0BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD60AE2-48A1-405D-80D3-007459AE0BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD60AE2-48A1-405D-80D3-007459AE0BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
