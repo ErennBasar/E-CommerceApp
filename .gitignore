@@ -1,0 +1,66 @@
+# Derleme çıktıları
+bin/
+obj/
+artifacts/
+publish/
+
+# IDE klasörleri
+.vs/
+.idea/
+.vscode/
+
+# Kullanıcı/IDE dosyaları
+*.user
+*.suo
+*.sln.docstates
+*.csproj.user
+*.vbproj.user
+*.DotSettings.user
+
+# OS geçicileri
+.DS_Store
+Thumbs.db
+
+# Test/coverage
+TestResults/
+*.coverage
+*.coveragexml
+coverage*/
+.nuget/packages/*/tools/**/AnyCPU/**/coverage.cobertura.xml
+
+# Loglar ve geçiciler
+logs/
+*.log
+*.pid
+
+# Paket/çıktı dosyaları
+*.nupkg
+*.snupkg
+
+# LibMan ile restore edilen kütüphaneler
+wwwroot/lib/
+
+# Frontend bağımlılıkları
+node_modules/
+
+# Docker/ortam
+.env
+docker-compose.override.yml
+
+# Sertifikalar/anahtarlar
+*.pfx
+*.p12
+*.snk
+
+# Yerel ayarlar ve gizliler
+appsettings.Development.json
+appsettings.Local.json
+local.settings.json
+secrets.json
+
+# Rider/Resharper
+_ReSharper.Caches/
+*.DotSettings.user
+
+# Azure Functions (varsa)
+bin/**/functions.metadata
